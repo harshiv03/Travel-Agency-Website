@@ -1,0 +1,65 @@
+/* CSS Document */
+.bg_cover{
+	 -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	background-size: cover;
+}
+#tabs-budget table,.tour_tabs_parent table{
+	border-collapse:seperate;
+	float:left;
+	width:100%;
+	border-spacing: 10px;
+	margin-top:20px;
+}
+#tabs-budget table th,.tour_tabs_parent table th{
+	border-top:5px solid #fff;
+	border-bottom:5px solid #fff;
+	padding: 10px;
+	color:white;
+}
+#tabs-budget table td,.tour_tabs_parent table td{
+	border-right:1px solid #fff;
+	border-bottom:1px solid #fff;
+	padding: 10px;
+	color:white;
+}
+.data_wrap table{
+	width:100%;
+	margin-top:15px;
+	border-collapse:collapse;
+	border:1px solid white;
+	color:#FFF;
+	font-family: 'Merriweather Sans', sans-serif;
+}
+.data_wrap table tr td{
+	text-align:left;
+	border:1px solid white;
+}
+.data_wrap table tr th{
+	text-align:left;
+	border:1px solid #1A839A;
+	background-color:#fff;
+	color:#000;
+}
+.data_wrap table tr td:first-child,.data_wrap table tr th:first-child{
+	text-align:center;
+}
+.data_wrap table tr th:first-child{
+	border-left:1px solid #fff;;
+}
+.data_wrap table tr th:last-child{
+	border-right:1px solid #fff;;
+}
+.data_wrap table td ol{
+	line-height:1.5em;
+}
+.visa_info_container{
+	display:none;
+}
+.relative{
+	position:relative !important;
+}
+.combo_box_container select{
+	padding: 10px 12px 13px 15px !important;
+}
